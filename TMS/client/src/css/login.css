@@ -1,0 +1,24 @@
+.login-container{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 50px;
+}
+.login-left,.login-right{
+	float: left;
+	height: 500px;
+	border: 1px solid #dd;
+}
+.login-left{
+	flex: 6;
+	margin-right: 10%;
+}
+.long-space{
+	flex: 1;
+}
+.login-right{
+	flex: 3;
+}
+.lineHeight33{
+	line-height: 33px;
+}

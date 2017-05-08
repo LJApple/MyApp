@@ -1,0 +1,21 @@
+{
+	"assestsJs":[
+	   "./src/assets/plugins/jquery/jquery.js",
+	   "./src/assets/plugins/bootstrap/js/bootstrap.js",
+	   "./src/assets/plugins/angular/angular.js",
+	   "./src/assets/plugins/angular/angular-*.js"
+	 ],
+	 "assetsCss":[
+	    "./src/assets/plugins/bootstrap/css/bootstrap.css"
+	  ],
+	 "assetsFonts":[
+	     "./src/assets/plugins/bootstrap/fonts/*.*"
+	  ],
+	  "appJs":[
+	    "./src/index.js",
+	    "./src/app/**/*.js"
+	  ],
+	  "appCss":[
+	     "./src/css/*.css"
+	   ]
+}

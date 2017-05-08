@@ -1,0 +1,30 @@
+.panel-right,
+.task-container{
+	position: fixed;
+	height: 100%;
+}
+.task-container > .panel,.panel-right > .panel{
+	height: 100%;;
+}
+.panel-right{
+	right: 0;
+}
+.noPadding{
+	padding: 0 !important;
+}
+.noPaddingLeft{
+	padding-left: 0 !important;
+}
+.noPaddingRight{
+	padding-right: 0 !important;
+}
+.task-oprate{
+	width: 80px;;
+}
+.task-check{
+	width: 20px;
+}
+.complete{
+	text-decoration: line-through;
+	color: gray;
+}
