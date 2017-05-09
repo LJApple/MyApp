@@ -1,7 +1,6 @@
 {
   "name": "tms_client",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +20,14 @@
     "gulp-uglify": "^2.1.2",
     "gulp-uncss": "^1.0.6",
     "run-sequence": "^1.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJApple/MyApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LJApple/MyApp/issues"
+  },
+  "homepage": "https://github.com/LJApple/MyApp#readme",
+  "description": ""
 }
