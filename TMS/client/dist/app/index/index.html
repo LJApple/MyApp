@@ -1,0 +1,39 @@
+<div>
+	<div class="col-md-8 task-container noPaddingLeft col-sm-7 hidden-xs">
+			<div class="panel panel-primary">
+				<div class="panel-heading">便签
+					<button class="btn btn-danger btn-xs pull-right">
+						<i class="glyphicon glyphicon-plus"></i>
+					</button>
+				</div>
+				<div class="panel-body">
+					
+				</div>
+			</div>
+		</div>
+	<div class="col-md-4 panel-right pull-left col-sm-5 col-xs-12 noPadding">
+		<div class="panel panel-primary">
+			<div class="panel-heading">任务面板</div>
+			<div class="panel-body">
+				<form  ng-submit="addTask()">
+					<input type="text" placeholder="输入任务然后回车"  ng-model="task.description" value="" required="required" class="form-control"/>
+				</form>
+				<hr />
+				<table class="table table-striped table-bordered table-hover">
+					<tr ng-repeat="task in tasksList track by $index">
+						<td class="text-center noPaddingLeft noPaddingRight task-check">
+							<input type="checkbox" ng-model="task.checked" />
+						</td>
+						<td ng-class="{'complete':task.checked}">{{task.description}}</td>
+						<td class="text-center task-oprate noPaddingLeft noPaddingRight">
+							<div class="btn-group">
+								<button class="btn btn-default btn-xs">编辑</button>
+								<button class="btn btn-primary btn-xs">新增</button>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
