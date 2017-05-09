@@ -32,18 +32,6 @@ angular.module('tmsApp')
 	}
 }]);;
 angular.module('tmsApp')
-.controller('LoginCtrl',['$scope','$location',function($scope,$location){
-	$scope.userEntity = {
-		username:'',
-		password:'',
-		rememberMe:false
-	};
-	$scope.rememberMe = false;
-	$scope.loginIn = function(){
-		$location.path('/').replace();
-	}
-}]);;
-angular.module('tmsApp')
 .controller('RegisterCtrl',['$scope',function($scope){
 	$scope.userEntity = {
 		username:'',
@@ -53,5 +41,17 @@ angular.module('tmsApp')
 	};
 	$scope.doRegeister = function(){
 		console.log($scope.userEntity)
+	}
+}]);;
+angular.module('tmsApp')
+.controller('LoginCtrl',['$scope','$location',function($scope,$location){
+	$scope.userEntity = {
+		username:'',
+		password:'',
+		rememberMe:false
+	};
+	$scope.rememberMe = false;
+	$scope.loginIn = function(){
+		$location.path('/').replace();
 	}
 }]);
